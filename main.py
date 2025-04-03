@@ -17,7 +17,7 @@ HEADERS = {
 session = requests.Session()
 session.headers.update(HEADERS)
 
-# First request to get session cookies
+# First request to get session cookiescd 
 session.get("https://www.nseindia.com", headers=HEADERS)
 time.sleep(2)  # Pause to avoid being blocked
 
